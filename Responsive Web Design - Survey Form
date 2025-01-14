@@ -1,0 +1,77 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<meta lang="en">
+<body>
+<h1 id="title">Test Survey Form</h1>
+<p id="description">Thank you for taking part in my survey.</p>
+<section>
+<form id="survey-form">
+  <label id="name-label">Full Name: <input required id="name" placeholder="John Smith"/></label>
+  <label id="email-label">Email: <input required id="email" type="email" placeholder="johnsmith69@email.com"/></label>
+  <label id="number-label">Age: <input required id="number" type="number" min="18" max="99" placeholder="00"/></label>
+
+<label for="drop-down"><p>Where did you hear about me?</p>
+<select required id="dropdown">
+  <option disabled selected value>Select an option</option>
+  <option value="0">Social Media</option>
+  <option value="1">A Colleague</option>
+  <option value="2">Google</option>
+  <option value="3">Newsletter</option></label></select>
+
+<label for="radio-button"><p>Would you recommend this website to anybody at all, be honest?</p>
+  <input name="radio-buttons" type="radio" value="1"/> Yes
+  <input name="radio-buttons" type="radio" value="2"/> No
+  <input name="radio-buttons" type="radio" value="3"/> Maybe</label>
+
+<label for="checkbox"><p>What would you like to see improved?</p>
+<input type="checkbox" value="1"/> Colours
+<input type="checkbox" value="2"/> Music
+<input type="checkbox" value="3"/> Layout
+<input type="checkbox" value="4"/> Information
+<input type="checkbox" value="5"/> Literally everything</label>
+<br>
+<br>
+<label for="textbox">Please leave a comment below.<br><textarea id="textbox" placeholder="Enter your comment here.."></textarea></label>
+<br>
+<input id="submit" type="submit" value="Submit" method="post"/> 
+</form>
+</section>
+  </body>
+
+
+
+  <link rel="stylesheet" href="styles.css">
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-image: url("https://miro.medium.com/v2/resize:fit:720/format:webp/1*ljJ1xReuDPsTHHgTrTFMmA.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+form {
+  display: block;
+  background-color: rgb(100, 100, 100, 0.5);
+  max-width: 800px;
+  text-align: center;
+}
+#description {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 1px;
+}
+#title {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+** end of undefined **
+Getting the hang of the HTML a little but a LOT of work to do on the CSS. Unable to really design much at all.
+The main issue being that I can't locate exactly what I would like to edit from the stylesheet, paired with unsure what
+I would actually like it to look like and joining those dots. It will come.
